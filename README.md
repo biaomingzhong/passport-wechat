@@ -28,6 +28,7 @@
         state:{STATE},
         getToken: {getToken},
         saveToken: {saveToken}
+        timeout:{请求 wechat api 的超时时间，默认为5000}
       },
       function(accessToken, refreshToken, profile,expires_in, done) {
         return done(err,profile);

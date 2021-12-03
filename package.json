@@ -1,6 +1,6 @@
 {
-  "name": "passport-wechat",
-  "version": "2.0.5",
+  "name": "@updating/passport-wechat",
+  "version": "2.0.7",
   "main": "lib/index.js",
   "description": "passport strategy for authenticating with wechat",
   "homepage": "http://www.liangyali.com",
@@ -31,9 +31,10 @@
   },
   "dependencies": {
     "debug": "latest",
-    "passport": "^0.3.0",
+    "passport": "^0.4.1",
     "passport-strategy": "^1.0.0",
-    "wechat-oauth": "^1.0.1",
-    "xtend": "^4.0.0"
+    "wechat-oauth": "^1.5.0",
+    "xtend": "^4.0.2",
+    "@umijs/fabric": "2.6.2"
   }
 }
